@@ -1,0 +1,69 @@
+/* Sticky footer set-up */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+
+/* Fonts */
+.txt-lgt {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer > ul {
+    margin-bottom: 0;
+}
+
+.list-inline-item {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.social {
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Index */
+.home-outer {
+    background-color: #3475ca;
+    position: relative;
+}
+
+.home-content {
+    background-image: url(../images/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-heading {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
